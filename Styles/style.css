@@ -62,9 +62,9 @@ nav{
 main{
    max-width: 1140px;
    margin-top: 50px;
-   padding: 0px 150px 2980px 150px;
-   border: 1px solid blue;
+   padding: 0px 150px 20px 150px;
 }
+
 
 /* development styles */
 
@@ -163,4 +163,45 @@ main{
 .node-js{
     width: 100%;
     margin-top: 50px;
+}
+
+/* contact-section */
+
+.contact-section{
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+    padding-top: 100px;
+    background-image: url(../assets/handshake.jpg);
+}
+
+.contact-section input[type="submit"]{
+    
+}
+.email{
+    margin-left: 400px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.submit{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-title{
+    color: aliceblue;
+}
+.contact-p{
+    color: azure;
+}
+
+/* footer */
+
+.footer{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px 150px;
 }
