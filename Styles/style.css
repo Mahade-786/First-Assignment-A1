@@ -60,6 +60,42 @@ nav{
 /* main styles */
 
 main{
-   max-width: 1200px;
-   margin-top: 100px;
+   max-width: 1140px;
+   margin-top: 50px;
+   padding: 0px 150px 2980px 150px;
+   border: 1px solid blue;
+}
+
+/* development styles */
+
+.develop-title{
+
+   font-size: 32px;
+   font-weight: 800;
+}
+.development-p{
+  
+   font-weight: 300;
+}
+
+.development-site{
+    padding: 80px 97px 80px 97px;
+    border: 1px solid blue;
+   
+}
+
+.development-container{
+    display: flex;
+    margin-top: 10px;
+    padding: 30px;
+    border: 1px solid blue;
+}
+
+.development-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.development-item{
+    width: 100%;
 }
