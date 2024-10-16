@@ -78,17 +78,18 @@ main{
    font-weight: 300;
 }
 
+
 .development-site{
     padding: 80px 97px 80px 97px;
-    border: 1px solid blue;
+    background-color: rgb(254, 248, 248);
    
 }
 
 .development-container{
     display: flex;
-    margin-top: 10px;
+    margin-top: 25px;
     padding: 30px;
-    border: 1px solid blue;
+    background-color: white;
 }
 
 .development-title{
@@ -100,32 +101,66 @@ main{
     width: 100%;
 }
 
+.border-video{
+    border: 2px solid rgb(43, 39, 39);
+    padding: 20px;
+    border-radius: 10px;
+}
+
 /* My first Target */
 
 .target-container{
     margin-top: 60px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     
+}
+
+#deve-p{
+    width: 756px;
+    padding-left: 180px;
 }
 
 #container-1{
     box-shadow: 10px 20px 20px  rgb(157, 133, 133);
     background-color: #e67255;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 15px;
 }
 
 #container-2{
     box-shadow: 10px 20px 20px  rgb(157, 133, 133);
     background-color: #4fd1a3;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 15px;
 }
 
 #container-3{
     box-shadow: 10px 20px 20px  rgb(157, 133, 133);
     background-color: #6399e5;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Next Target area */
+
+.Target-section{
+    margin-top: 130px;
+}
+
+.next-target-container{
+    display: flex;
+    padding: 30px;
+    border: 1px solid rgb(87, 58, 58);
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.content{
+     padding-left: 50px;
+}
+
+.node-js{
+    width: 100%;
+    margin-top: 50px;
 }
