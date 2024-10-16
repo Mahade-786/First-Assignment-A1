@@ -99,3 +99,33 @@ main{
 .development-item{
     width: 100%;
 }
+
+/* My first Target */
+
+.target-container{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+#container-1{
+    box-shadow: 10px 20px 20px  rgb(157, 133, 133);
+    background-color: #e67255;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#container-2{
+    box-shadow: 10px 20px 20px  rgb(157, 133, 133);
+    background-color: #4fd1a3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#container-3{
+    box-shadow: 10px 20px 20px  rgb(157, 133, 133);
+    background-color: #6399e5;
+    padding: 20px;
+    border-radius: 10px;
+}
